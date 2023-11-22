@@ -8,13 +8,10 @@ const Navbar = () => {
         </NavLink>
         <nav className="flex text-lg gap-7 font-medium">
             <NavLink to="/about" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
-            About
+            <p className="font-size: 4vw"></p>About
             </NavLink>
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Projects
-            </NavLink>
-            <NavLink to="/contact" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
-            Contact
             </NavLink>
             <NavLink target="_blank" to="https://www.linkedin.com/in/elmind/overlay/1635550602295/single-media-viewer/?profileId=ACoAACvGRB8BBX_UP1LyX3U669NxLRJRVwkIq_o" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Resume
