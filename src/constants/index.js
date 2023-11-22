@@ -160,7 +160,7 @@ export const experiences = [
         company_name: "Casey's General Stores",
         icon: caseys,
         iconBg: "#fbc3bc",
-        date: "Jan 2022 - Jan 2023",
+        date: "May 2022 - August 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Tested API Calls to over 20+ Cred Cards, increasing code quality with xUnit and TDD",
@@ -172,7 +172,7 @@ export const experiences = [
         company_name: "Iowa State",
         icon: iowastate,
         iconBg: "#fbc3bc",
-        date: "Jan 2023 - Present",
+        date: "September 2021 - December 2022",
         points: [
             "Published a paper on user interface design patterns that document Human-Agent Team (HAT)",
             "Published a paper on Team skill metrics by translating team constructs to metrics based on observable behaviors"
