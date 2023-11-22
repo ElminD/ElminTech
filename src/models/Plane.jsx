@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-import planeScene from "../assets/3d/plane.glb";
+import planeScene from "../assets/3d/bee.glb";
+import { useFrame } from "@react-three/fiber";
 
 // 3D Model from: https://sketchfab.com/3d-models/stylized-ww1-plane-c4edeb0e410f46e8a4db320879f0a1db
 export function Plane({ isRotating, ...props }) {
@@ -15,11 +16,16 @@ export function Plane({ isRotating, ...props }) {
   // Note: Animation names can be found on the Sketchfab website where the 3D model is hosted.
   useEffect(() => {
     if (isRotating) {
-      actions["Take 001"].play();
+      actions["Animation"].play();
     } else {
-      actions["Take 001"].stop();
+      actions["Animation"].play();
     }
   }, [actions, isRotating]);
+
+  useFrame(({ clock, camera }) => {
+    // Update the Y position to simulate bird-like motion using a sine wave
+    ref.current.position.y = Math.sin(clock.elapsedTime) * 0.5 - 2;
+  });
 
   return (
     <mesh {...props} ref={ref}>

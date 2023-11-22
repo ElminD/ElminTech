@@ -30,11 +30,11 @@ const Home = () => {
 
     // If screen width is less than 768px, adjust the scale and position
     if (window.innerWidth < 768) {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPosition = [0, -1.5, 0];
+      screenScale = [0.3, 0.3, 0.3];
+      screenPosition = [0, -4, -11];
     } else {
-      screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
+      screenScale = [0.6, 0.6, 0.6];
+      screenPosition = [0, -4, -12];
     }
 
     return [screenScale, screenPosition];
@@ -98,7 +98,7 @@ const Home = () => {
           <Plane
             isRotating={isRotating}
             position={biplanePosition}
-            rotation={[0, 20.1, 0]}
+            rotation={[0, 4.3, 0]}
             scale={biplaneScale}
           />
         </Suspense>
