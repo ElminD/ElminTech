@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import { Fox } from "../models/Fox";
+import { Fox, Ditto } from "../models";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
 import Loader from "../components/Loader";
@@ -12,14 +12,14 @@ const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const { alert, showAlert, hideAlert } = useAlert();
   const [loading, setLoading] = useState(false);
-  const [currentAnimation, setCurrentAnimation] = useState("idle");
+  const [currentAnimation, setCurrentAnimation] = useState("Static pose");
 
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleFocus = () => setCurrentAnimation("walk");
-  const handleBlur = () => setCurrentAnimation("idle");
+  const handleFocus = () => setCurrentAnimation("Dancing");
+  const handleBlur = () => setCurrentAnimation("Static pose");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -158,11 +158,11 @@ const Contact = () => {
           />
 
           <Suspense fallback={<Loader />}>
-            <Fox
+            <Ditto
               currentAnimation={currentAnimation}
-              position={[0.5, 0.35, 0]}
-              rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              position={[0.5, -0.5, 0]}
+              rotation={[12.629, -0.2, 0]}
+              scale={[1.2, 1.2, 1.2]}
             />
           </Suspense>
         </Canvas>
