@@ -11,6 +11,9 @@ const HomeInfo = ({ currentStage }) => {
         👋
         <br />
         A Software Engineer at Iowa State University🌪️
+        <br />
+        <br />
+       Move around using your 🖱️ or 👆
       </h1>
     );
 
