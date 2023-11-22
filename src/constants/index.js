@@ -86,6 +86,16 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     },
+    {
+        imageUrl: cpp,
+        name: "C++",
+        type: "Backend",
+    },
+    {
+        imageUrl: python,
+        name: "python",
+        type: "Backend",
+    },
 ];
 
 export const experiences = [
