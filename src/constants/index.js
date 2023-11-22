@@ -1,6 +1,13 @@
 import { meta, johndeere, SourceAllies, caseys, iowastate} from "../assets/images";
 import {
     car,
+    terraform,
+    docker,
+    azure,
+    aws,
+    jest,
+    golang,
+    csharp,
     android,
     openai,
     python,
@@ -57,16 +64,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
@@ -94,6 +91,41 @@ export const skills = [
     {
         imageUrl: python,
         name: "python",
+        type: "Backend",
+    },
+    {
+        imageUrl: terraform,
+        name: "terraform",
+        type: "Backend",
+    },
+    {
+        imageUrl: docker,
+        name: "docker",
+        type: "Backend",
+    },
+    {
+        imageUrl: azure,
+        name: "azure",
+        type: "Backend",
+    },
+    {
+        imageUrl: aws,
+        name: "aws",
+        type: "Backend",
+    },
+    {
+        imageUrl: jest,
+        name: "jest",
+        type: "Backend",
+    },
+    {
+        imageUrl: golang,
+        name: "golang",
+        type: "Backend",
+    },
+    {
+        imageUrl: csharp,
+        name: "csharp",
         type: "Backend",
     },
 ];
@@ -124,7 +156,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Casey's General Stores",
+        title: "Software Engineering Intern",
         company_name: "Casey's General Stores",
         icon: caseys,
         iconBg: "#fbc3bc",

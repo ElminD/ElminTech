@@ -30,9 +30,23 @@ import python from './python.svg'
 import cpp from './cpp.svg'
 import android from './android.svg'
 import openai from './openai.svg'
+import terraform from './terraform.svg'
+import docker from './docker.svg'
+import azure from './azure.svg'
+import aws from './aws.svg'
+import jest from './jest.svg'
+import golang from './golang.svg'
+import csharp from './csharp.svg'
 
 export {
     css,
+    terraform,
+    docker,
+    azure,
+    aws,
+    jest,
+    golang,
+    csharp,
     openai,
     android,
     cpp,
