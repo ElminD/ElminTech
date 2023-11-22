@@ -8,9 +8,11 @@ import johndeere from './johndeere.png'
 import SourceAllies from './sourceallies.jpeg'
 import caseys from './caseys.png'
 import iowastate from './iowastate.png'
+import agrisync from './agrisync.jpg'
 
 export {
     hero,
+    agrisync,
     meta,
     shopify,
     starbucks,

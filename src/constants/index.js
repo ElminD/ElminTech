@@ -1,4 +1,4 @@
-import { meta, johndeere, SourceAllies, caseys, iowastate} from "../assets/images";
+import { meta, johndeere, SourceAllies, caseys, iowastate, agrisync} from "../assets/images";
 import {
     car,
     terraform,
@@ -136,7 +136,7 @@ export const experiences = [
         company_name: "John Deere",
         icon: johndeere,
         iconBg: "#b7e4c7",
-        date: "August 2022 - Current",
+        date: "August 2023 - Current",
         points: [
             "Identified and resolved reported bugs while creating new tests to prevent future occurrences with C++ and QT",
             "Revamped UI elements for autonomous tractors to display detailed errors in tractor sensors",
@@ -154,6 +154,29 @@ export const experiences = [
             "Connected 100+ employee accounts calling Azure API to achieve SSO with Axios and TypeScript",
             "Deployed a web application with Terraform and GitHub actions to Azure Enterprise Applications",
         ],
+    },
+    {
+        title: "Software Engineering Intern",
+        company_name: "John Deere",
+        icon: johndeere,
+        iconBg: "#b7e4c7",
+        date: "August 2022 - May 2023",
+        points: [
+            "Identified and resolved reported bugs while creating new tests to prevent future occurrences",
+            "Revamped the user interface for error reporting in a tractor application using C++ and QT",
+            "Enhanced the self-driving requirement section by incorporating unit tests and additional UI elements, resulting in a clean look and streamlined process",
+        ],
+    },
+    {
+        title: "ABCS Fellow",
+        company_name: "Meta",
+        icon: meta,
+        iconBg: "#BBF3FA",
+        date: "August 2022 - October 2022",
+        points: [
+            "Attended weekly development workshops geared towards enhancing knowledge of programming fundamentals, engaging with industry professionals, and ensuring career readiness",
+            "Collaborating with industry-leading software engineers to master essential data structure and algorihm skills",
+      ],
     },
     {
         title: "Software Engineering Intern",
@@ -176,6 +199,17 @@ export const experiences = [
         points: [
             "Published a paper on user interface design patterns that document Human-Agent Team (HAT)",
             "Published a paper on Team skill metrics by translating team constructs to metrics based on observable behaviors"
+        ],
+    },
+    {
+        title: "Software Engineer Test Intern",
+        company_name: "AgriSync",
+        icon: agrisync,
+        iconBg: "#b7e4c7",
+        date: "May 2019 - August 2019",
+        points: [
+            "Created UI test for Mobile and Web applications tracking User creation and UI/UX updates",
+            "Worked with developers creating tickets with Trello in a Agile team environment"
         ],
     },
 ];
