@@ -15,9 +15,9 @@ export function Plane({ isRotating, ...props }) {
   // Note: Animation names can be found on the Sketchfab website where the 3D model is hosted.
   useEffect(() => {
     if (isRotating) {
-      actions["Animation"].play();
+      actions["Take 001"].play();
     } else {
-      actions["Animation"].stop();
+      actions["Take 001"].stop();
     }
   }, [actions, isRotating]);
 
