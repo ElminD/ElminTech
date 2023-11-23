@@ -13,7 +13,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Projects
             </NavLink>
-            <NavLink target="_blank" to="https://www.linkedin.com/in/elmind/overlay/1635550602295/single-media-viewer/?profileId=ACoAACvGRB8BBX_UP1LyX3U669NxLRJRVwkIq_o" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
+            <NavLink target="_blank" to="https://drive.google.com/file/d/1RV42oRng4Du89kQSJK67rwSqB695SnDw/view?usp=sharing" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Resume
             </NavLink>
         </nav>
