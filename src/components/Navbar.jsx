@@ -13,7 +13,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Projects
             </NavLink>
-            <NavLink target="_blank" to="https://drive.google.com/file/d/1RV42oRng4Du89kQSJK67rwSqB695SnDw/view?usp=sharing" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
+            <NavLink target="_blank" to="https://drive.google.com/file/d/1icL4T8f9W96ZnZOitdwWuDWsjD_2goij/view?usp=sharing" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Resume
             </NavLink>
         </nav>
