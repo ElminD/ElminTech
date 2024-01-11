@@ -13,7 +13,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Projects
             </NavLink>
-            <NavLink target="_blank" to="public/Elmin-Didic-Resume.pdf" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
+            <NavLink target="_blank" to="https://elmin.tech/Elmin-Didic-Resume.pdf" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
               Resume
             </NavLink>
         </nav>
